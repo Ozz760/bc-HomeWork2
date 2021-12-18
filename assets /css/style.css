@@ -1,5 +1,28 @@
 
 
-*{
-    background-color: grey;
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: white;
 }
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: darkblue;
+  }
