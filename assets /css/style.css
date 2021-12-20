@@ -8,7 +8,9 @@
 
 .headings{ 
   font-size: 300%;
-  
+  position: relative;
+  left: 10%;
+
 }
 
 header{
@@ -41,5 +43,15 @@ ul{
   list-style-type: none;
 }
 
+p{
+  position: relative;
+  left: 40%;
+  
+}
+
+#contact-list{
+  position: relative;
+  left: 40%;
+}
 
 
