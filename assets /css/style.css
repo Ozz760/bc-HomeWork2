@@ -2,3 +2,22 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  background-color: black;
+  color: white;
+  }
+
+  h1{
+    font-size: 300%;
+  }
+
+  li{
+    display: inline;
+    font-size: 100%;
+    
+    
+  }
