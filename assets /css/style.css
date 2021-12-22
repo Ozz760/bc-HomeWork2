@@ -1,8 +1,74 @@
 *{
   font-family: 'Times New Roman', Times, serif;
+  background-color: lightgrey;
 }
 
 li{
   list-style: none;
 }
 
+h1{
+  background-color: black;
+  color: white;
+  font-size: 250%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+p{
+  text-align: center;
+  text-align: left;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.box{
+  margin-bottom: 0.5em;
+  width: 100%;
+  color: white;
+  background-image: url(https://picsum.photos/id/1015/200/300);
+  background-repeat: repeat-y;
+  background-position: center;
+  
+  padding-top: 2em;
+  padding-bottom: 1em;
+  border: 2px solid black;
+}
+
+.box-title{
+  font-size: 20px;
+  padding: 1em;
+  color: black;
+  background-color: white;
+  width: 30%;
+}
+
+
+/* Small smartphones - image placeholders change color */
+@media screen and (min-width: 576px) {
+  .box{
+    width: 45%;
+   /* margin: 1%;
+    color: white;
+    background-image: url(https://picsum.photos/id/1015/200/300);
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border: 2px solid black; */
+  }
+}
