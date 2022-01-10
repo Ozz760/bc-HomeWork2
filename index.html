@@ -33,9 +33,13 @@
     </nav>
   </header>
 
-  <main>
-    <article>
-      <h2>About me</h2>
+  <section id="about-me">
+    <aside>
+      <h2 class="aboutme-h2">
+        About me
+      </h2>
+    </aside>
+    <section class="aboutme-section">
       <p>
         My name is Oscar Silva. The most significant challenge I’ve faced is being born into a family of immigrants who
         were previously undocumented and growing up in the rough neighborhoods of east Oceanside. Modern day Oceanside
@@ -59,43 +63,87 @@
         Solutions program are all the manifestations of my ambition. Recently I had the opportunity to volunteer for a
         community advocacy organization, Hazel’s Army, that fights for at-risk and marginalized communities through
         legislative advocacy and community education.
-      </p>The 
-    </article>
-
-    <section class="projects">
-      <div class="row">
-        <h2>Work</h2> 
-      </div>
-      <figure class="box">
-        <h2 class="box-title">Project Title</h2>
-      </figure>
-       <figure class="box">
-        <h2 class="box-title">Project Title</h2>
-       </figure>
-       <figure class="box">
-        <h2 class="box-title">Project Title</h2>
-       </figure>
-       <figure class="box">
-        <h2 class="box-title">Project Title</h2>
-       </figure>
-       <figure class="box">
-        <h2 class="box-title">Project Title</h2>
-       </figure>
+      </p>
     </section>
+  </section>
+    
+    
+<main id="work">
+    <aside>
+      <h2 class="work-h2">
+          Work
+      </h2>
+  </aside>
+  <!-- make entire section a flex container for later formatting -->
+  <nav id="worknav" class="work-section">
+          <!-- work sample 1 is a seperate class because it will be the outsized one. turn all images in div background images and get rid of img tags -->
+          <div class="ws1">
+              <a href="#work-sample1">
+              </a>
 
-    <footer>
-      <h2>
+              <p class="wsp">
+              Work Sample 1
+              </p>
+          </div>
+
+          <!-- container element for 4 equal work links -->
+          <div class="ws2">
+              <a href="#work-sample2">
+              </a>
+
+              <p class="wsp">
+                  Work Sample 2
+              </p>
+          </div>
+          <div class="ws3">
+              <a href="#work-sample3">
+              </a>
+
+              <p class="wsp">
+                  Work Sample 3
+              </p>
+          </div>
+          <div class="ws4">
+              <a href="#work-sample4">
+              </a>
+
+              <p class="wsp">
+                  Work Sample 4
+              </p>
+          </div>
+          <div class="ws5">
+              <a href="#work-sample5">
+              </a>
+
+              <p class="wsp">
+                  Work Sample 5
+              </p>
+          </div>
+  </nav>
+</main>
+
+    <footer id="contact">
+     <aside>
+      <h2 class="contactme-h2">
         Contact Me
       </h2>
-      <nav>
-        <ul id="foot-nav">
-          <li>(760)717-8530</li>
-          <li>oscarsilva2356@gmail.com</li>
-          <li><a href="https://github.com/Ozz760" target="_blank">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/oscar-silva-b53684156/" target="_blank">Linkedin</a></li>
+     </aside>
+      <section class="contactme-section">
+        <ul id="foot-ul">
+          <li class="footer-li">
+            (760)717-8530
+          </li>
+          <li class="footer-li">
+            oscarsilva2356@gmail.com
+          </li>
+          <li class="footer-li">
+            <a href="https://github.com/Ozz760" target="_blank">GitHub</a>
+          </li>
+          <li class="footer-li">
+            <a href="https://www.linkedin.com/in/oscar-silva-b53684156/" target="_blank">Linkedin</a>
+          </li>
         </ul>
-      </nav>
+      </section>
     </footer>
-  </main>
 </body>
 </html>
