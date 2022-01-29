@@ -3,154 +3,110 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets /css/style.css">
-  <title>Oscar Silva's Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Oscar Silva // Web Developer</title>
+  <link rel="stylesheet" href="./assets /css/style.css"/>
 </head>
 
 <body>
+  <!-- main logo / nav -->
   <header>
-      <h1>
-      Oscar Silva
-     </h1>
+    <h1>Oscar Silva</h1>
     <nav>
-      <div class="nav-bar">
-      <ul class="header-ul">
-        <li class="header-li">
-          <a href="#about-me" class= "header-a">About Me</a>
-        </li>
-        <li class="header-li">
-          <a href="#worknav" class="header-a">Work</a>
-      </li>
-      <li class="header-li">
-          <a href="#contact" class="header-a">Contact</a>
-      </li>
-        <li class="header-li">
-          <a class="header-a" href="./images/Web Development Resume !.pdf" target="_blank">Resume</a>
-        </li>
-      </ul>
-    </div>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="./images/Web Development Resume !.pdf" target="_blank">Resume</a>
     </nav>
   </header>
 
-  <section id="about-me">
-    <aside>
-      <h2 class="aboutme-h2">
-        About me
-      </h2>
-    </aside>
-    <section class="aboutme-section">
-      <p>
-        My name is Oscar Silva. The most significant challenge I’ve faced is being born into a family of immigrants who
-        were previously undocumented and growing up in the rough neighborhoods of east Oceanside. Modern day Oceanside
-        is divrse, thriving community that has overcome a dark history of gang violence. The east side of
-        Oceanside--otherwise known as “Posole”--was for decades a hub of gang activity, drug dealing, and violence for
-        many people who look like me. It is also a neighborhood that many immigrant families like mine call home. Coming
-        from an immigrant background, it can often seem that the deck is stacked against you. As a result, I learned to
-        live in the shadows in constant fear of not only the gang members in my neighborhood, but also of being taken
-        away from the nation that holds my American dream. I could have easily chosen the route of illegal activity that
-        was so well established in my community, but I didn’t--I always knew I could find another route to achieve my
-        goals. Although my family has faced numerous challenges over the years, we never lost sight of the goal to not
-        only live in America but thrive here. I would go out of my way to avoid those gang “sets” that enticed so many
-        others who didn’t have the best start in life. It may have put an invisible target on my back, but I still
-        managed to live my life away from the gang activity.
-      </p>
-      <p>
-        Now, I have a set goal in life to become a venture capitalist, a profession that few Mexican Americans hold.
-        Perhaps counterintuitively, my academic achievements have benefited greatly from the challenges I have faced and
-        overcome. No matter what subject, project, or extracurricular activity comes my way, I know I will excel in all
-        aspects because I rise above and persevere. Earning a 4.0 Grade Point Average, participating in a Global
-        Solutions program are all the manifestations of my ambition. Recently I had the opportunity to volunteer for a
-        community advocacy organization, Hazel’s Army, that fights for at-risk and marginalized communities through
-        legislative advocacy and community education.
-      </p>
-    </section>
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Check out my Projects!</h2>
+    </div>
   </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+            My name is Oscar Silva. The most significant challenge I’ve faced is being born into a family of immigrants who
+            were previously undocumented and growing up in the rough neighborhoods of east Oceanside. Modern day Oceanside
+            is divrse, thriving community that has overcome a dark history of gang violence. The east side of
+            Oceanside--otherwise known as “Posole”--was for decades a hub of gang activity, drug dealing, and violence for
+            many people who look like me. It is also a neighborhood that many immigrant families like mine call home. Coming
+            from an immigrant background, it can often seem that the deck is stacked against you. As a result, I learned to
+            live in the shadows in constant fear of not only the gang members in my neighborhood, but also of being taken
+            away from the nation that holds my American dream. I could have easily chosen the route of illegal activity that
+            was so well established in my community, but I didn’t--I always knew I could find another route to achieve my
+            goals. Although my family has faced numerous challenges over the years, we never lost sight of the goal to not
+            only live in America but thrive here. I would go out of my way to avoid those gang “sets” that enticed so many
+            others who didn’t have the best start in life. It may have put an invisible target on my back, but I still
+            managed to live my life away from the gang activity.
+      </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="https://ozz760.github.io/project-01/" target="_blank" class="flex-item project-1">
+          <div>
+            <h3>Recipe Roulette</h3>
+            <span>Project 1</span>
+          </div>
+        </a>
+        
+        <a href="#" class="flex-item led-wall">
+          <div>
+            <h3>Placeholder</h3>
+            <span>Password Generator</span>
+          </div>
+        </a>
+        <a href="#" class="flex-item react-calc">
+          <div>
+            <h3>Placeholder</h3>
+            <span>Project 2</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Placeholder</h3>
+            <span>Homework</span>
+          </div>
+        </a>
+
     
-    
-<main id="work">
-    <aside>
-      <h2 class="work-h2">
-          Work
-      </h2>
-  </aside>
-  <!-- make entire section a flex container for later formatting -->
-  <nav id="worknav" class="work-section">
-          <!-- work sample 1 is a seperate class because it will be the outsized one. turn all images in div background images and get rid of img tags -->
-          <div class="ws1">
-            <a href="https://ozz760.github.io/project-01/" target="_blank"> 
-            <img src="./images/recipeRoulette.png" alt="Image of recipeRoulette" height="300">
-           </a>
-            
-            <p class="wsp">
-              Project 1:
-              Recipe Roulette 
-            </p>
+        <a href="#" class="flex-item run-buddy">
+          <div>
+            <h3>Placeholder</h3>
+            <span>Project 3</span>
           </div>
+        </a>
 
-          <!-- container element for 4 equal work links -->
-          <div class="ws2">
-              <a href="#work-sample2">
-              </a>
-              <img src="./images/stockimage.jpg" alt="stockimage">
+      </div>
+    </section>
 
-              <p class="wsp">
-                  Work Sample 2
-              </p>
-          </div>
-          <div class="ws3">
-              <a href="#work-sample3">
-              </a>
-              <img src="./images/thirdbackground.jpg" alt="thirdbackground">
-
-              <p class="wsp">
-                  Work Sample 3
-              </p>
-          </div>
-          <div class="ws4">
-              <a href="#work-sample4">
-              </a>
-              <img src="./images/blurstreet.jpg" alt="blurstreet">
-
-              <p class="wsp">
-                  Work Sample 4
-              </p>
-          </div>
-          <div class="ws5">
-              <a href="#work-sample5">
-              </a>
-              <img src="./images/stockimage.jpg" alt="stockimage">
-
-              <p class="wsp">
-                  Work Sample 5
-              </p>
-          </div>
-  </nav>
-</main>
-
-    <footer id="contact">
-     <aside>
-      <h2 class="contactme-h2">
-        Contact Me
-      </h2>
-     </aside>
-      <section class="contactme-section">
-        <ul id="foot-ul">
-          <li class="footer-li">
-            (760)717-8530
-          </li>
-          <li class="footer-li">
-            oscarsilva2356@gmail.com
-          </li>
-          <li class="footer-li">
-            <a href="https://github.com/Ozz760" target="_blank">GitHub</a>
-          </li>
-          <li class="footer-li">
-            <a href="https://www.linkedin.com/in/oscar-silva-b53684156/" target="_blank">Linkedin</a>
-          </li>
-        </ul>
-      </section>
-    </footer>
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+15555555555">(760)717-8530</a>
+          <a href="mailto:oscarsilva2356@gmail.com">oscarsilva2356@gmail.com</a>
+          <a href="https://github.com/Ozz760" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/oscar-silva-b53684156/" target="_blank">Linkedin</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
